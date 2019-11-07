@@ -2,11 +2,13 @@
 
 # seatserver-test
 Tixy - OpenAccess SeatServer Test Tool
+
 Version 0.01
 
 ## Usage
-`t-queue.pl MAPID TIERID QUANTITY [PRIORITY]`
+`t-queue.pl SERVER MAPID TIERID QUANTITY [PRIORITY]`
 
++ **SERVER** - IP address of seatserver instance
 + **MAPID** - unique map id from database
 + **TIERID** - unique tier id from database
 + **QUANTITY** - quantity of seats requested
